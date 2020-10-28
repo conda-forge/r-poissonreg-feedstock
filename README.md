@@ -5,11 +5,9 @@ Home: https://github.com/tidymodels/poissonreg
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-poissonreg-feedstock/blob/master/LICENSE.txt)
 
 Summary: Bindings for Poisson regression models for use with the 'parsnip' package. Models include simple generalized linear models, Bayesian models, and zero-inflated Poisson models (Zeileis, Kleiber, and Jackman (2008) <doi:10.18637/jss.v027.i08>).
-
-
 
 Current build status
 ====================
