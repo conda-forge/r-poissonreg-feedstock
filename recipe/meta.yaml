@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/poissonreg_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/poissonreg/poissonreg_{{ version }}.tar.gz
-  sha256: 4302a1077f80d3b6784c266f25f58c137a88b411496eb74e67950d865f19c448
+  sha256: 2ba4c1f5bcd2f934eb090d452787d0452b6bdddb86c667b3d0fe91b27dae5866
 
 build:
   merge_build_host: true  # [win]
