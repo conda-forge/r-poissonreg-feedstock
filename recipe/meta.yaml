@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/poissonreg_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/poissonreg/poissonreg_{{ version }}.tar.gz
-  sha256: 83bc737955e23c84b884947fb01abec51b4e421e9a5d15c3f643a5a7363597c2
+  sha256: 04eeaf48b9c83e7e52b9a5390fb6251a7948621ce5cf19ee9220e136f1ebbf86
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
